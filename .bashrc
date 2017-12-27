@@ -121,3 +121,9 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 
 alias vimrc='vim .vimrc'
 set -o vi
+
+tmux attach &> /dev/null
+
+if [[ ! $TERM =~ screen ]]; then
+    exec tmux
+fi

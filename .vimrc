@@ -59,7 +59,7 @@ filetype plugin indent on    " required
 "airline config
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme='base16_default'
+let g:airline_theme='base16_classic'
 
 let g:rooter_change_directory_for_non_project_files = 'current'
 let g:rooter_silent_chdir = 1
