@@ -41,6 +41,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'wincent/terminus'
 Plugin 'KabbAmine/zeavim.vim'
 Plugin 'edkolev/tmuxline.vim'
+Plugin 'edkolev/promptline.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
