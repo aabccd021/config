@@ -1,0 +1,114 @@
+// Place your key bindings in this file to override the defaults
+[
+    // use vscode search
+    {
+        "key": "ctrl+h",
+        "command": "-extension.vim_ctrl+h",
+        "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+    },
+    // use vscode close side bar
+    {
+        "key": "ctrl+b",
+        "command": "-extension.vim_ctrl+b",
+        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    // show explorer
+    {
+        "key": "ctrl+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-extension.vim_ctrl+e",
+        "when": "editorTextFocus && vim.active && vim.use<C-e> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    // use vscode close window
+    {
+        "key": "ctrl+w",
+        "command": "-extension.vim_ctrl+w",
+        "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+    },
+    // move to next group
+    {
+        "key": "shift+alt+k",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    // move to prev group
+    {
+        "key": "shift+alt+j",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    // toggle suggestion
+    {
+        "key": "ctrl+space",
+        "command": "-extension.vim_ctrl+space",
+        "when": "editorTextFocus && vim.active && vim.use<C-space> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    // suggestion down
+    {
+        "key": "ctrl+n",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "down",
+        "command": "-selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    // suggestion up
+    {
+        "key": "ctrl+p",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "up",
+        "command": "-selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "escape",
+        "command": "hideSuggestWidget",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
+    // close suggestion
+    {
+        "key": "shift+escape",
+        "command": "-hideSuggestWidget",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
+    // enable yarn script
+    {
+        "key": "ctrl+r",
+        "command": "-extension.vim_ctrl+r",
+        "when": "editorTextFocus && vim.active && vim.use<C-r> && !inDebugRepl"
+    },
+    // explorer shortcut
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "delete",
+        "command": "-deleteFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceMoveableToTrash && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "delete",
+        "command": "deleteFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceMoveableToTrash && !explorerResourceReadonly && !inputFocus"
+    }
+]
