@@ -1,0 +1,221 @@
+{
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.wordWrapColumn": 120,
+  },
+  "[markdown]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": true
+    }
+  },
+  "debug.openDebug": "openOnSessionStart",
+  "debug.openExplorerOnEnd": true,
+  "diffEditor.wordWrap": "off",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "eslint.format.enable": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10000,
+  "git.autofetch": true,
+  "html.validate.styles": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "rewrap.autoWrap.enabled": true,
+  "scss.lint.argumentsInColorFunction": "ignore",
+  "scss.lint.emptyRules": "ignore",
+  "scss.lint.fontFaceProperties": "ignore",
+  "scss.lint.hexColorLength": "ignore",
+  "scss.lint.propertyIgnoredDueToDisplay": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownProperties": "ignore",
+  "scss.lint.vendorPrefix": "ignore",
+  "scss.validate": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.rendererType": "dom",
+  "todo-tree.highlights.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vim.easymotion": true,
+  "vim.easymotionMarkerBackgroundColor": "#000000",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "after": [
+        "leader",
+        "leader",
+        "s"
+      ],
+      "before": [
+        "s"
+      ]
+    }
+  ],
+  "window.menuBarVisibility": "toggle",
+  "workbench.tree.indent": 16,
+  "window.restoreWindows": "none",
+  "editor.largeFileOptimizations": false,
+  "vim.digraphs": {},
+  "vim.useSystemClipboard": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.highlightedyank.enable": true,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 17,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "jspm_packages": true,
+    "**/node_modules": true
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "importCost.typescriptExtensions": [
+    "\\.tsx?$"
+  ],
+  "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "markdownlint.config": {
+    "md025": false
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltcIkI4NTQ1MFwiLFwiRkYwMDAwXCIsXCIwMDAwMDBcIixcIkZGRkZGRlwiLFwiMDA3RkZGXCIsXCIwMDAwRkZcIixcIjZDOEVCRlwiLFwiMDA4MEYwXCIsXCJENzlCMDBcIixcIjk2NzNBNlwiXSxcImZvcm1hdFdpZHRoXCI6MjQwLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODUwLFwiaGVpZ2h0XCI6MTEwMH0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+  "hediet.vscode-drawio.theme": "Kennedy",
+  "window.dialogStyle": "custom",
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "rewrap.wrappingColumn": 100,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+      "tools": [
+        "pdflatex",
+        "bibtex",
+        "pdflatex",
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "latexmk 🔃",
+      "tools": [
+        "latexmk"
+      ]
+    },
+    {
+      "name": "latexmk (latexmkrc)",
+      "tools": [
+        "latexmk_rconly"
+      ]
+    },
+    {
+      "name": "latexmk (lualatex)",
+      "tools": [
+        "lualatexmk"
+      ]
+    },
+    {
+      "name": "Compile Rnw files",
+      "tools": [
+        "rnw2tex",
+        "latexmk"
+      ]
+    },
+    {
+      "name": "Compile Jnw files",
+      "tools": [
+        "jnw2tex",
+        "latexmk"
+      ]
+    },
+    {
+      "name": "tectonic",
+      "tools": [
+        "tectonic"
+      ]
+    }
+  ],
+  "git.enableSmartCommit": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "jest.autoRun": {
+    "watch": false,
+    "onStartup": [
+      "all-tests"
+    ]
+  },
+  "jest.jestCommandLine": "yarn test",
+  "jest.showCoverageOnLoad": true,
+  "vscode-coverage-highlighter.showDiagnostic": true,
+  "vscode-coverage-highlighter.defaultState": "disable",
+  "coverage-gutters.showGutterCoverage": false,
+  "coverage-gutters.showLineCoverage": true,
+  "coverage-gutters.highlightdark": "rgba(45, 121, 10, 0)",
+  "workbench.sideBar.location": "right",
+  "redhat.telemetry.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.suggest.preview": true,
+  "debug.onTaskErrors": "debugAnyway",
+  "editor.stickyTabStops": true,
+  "editor.suggest.showStatusBar": true,
+  "explorer.compactFolders": false,
+  "workbench.activityBar.visible": false,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "yarn",
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.defaultLocation": "editor",
+  "editor.foldingImportsByDefault": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "workbench.editor.enablePreview": false,
+  "search.quickOpen.history.filterSortOrder": "recency",
+  "editor.bracketPairColorization.enabled": true
+}
