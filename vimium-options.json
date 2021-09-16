@@ -7,7 +7,7 @@
     },
     {
       "pattern": "https?://github.com/*",
-      "passKeys": "?"
+      "passKeys": "?.jkxstlwyib/"
     },
     {
       "pattern": "https?://twitter.com/*",
@@ -16,10 +16,6 @@
     {
       "pattern": "https?://duckduckgo.com/*",
       "passKeys": "?jkltm/"
-    },
-    {
-      "pattern": "https?://github.com/*",
-      "passKeys": "."
     },
     {
       "pattern": "https?://www.facebook.com/*",
@@ -39,6 +35,10 @@
     },
     {
       "pattern": "https?://www.overleaf.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://music.youtube.com/*",
       "passKeys": ""
     }
   ],
